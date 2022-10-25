@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+    width: 350px;
+    height: 500px;
+    border: 2px solid black;
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card {
+    width: 100%;
+    height: 70%;
+    /*background: #000;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    text-align: justify;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    font-size: 25px;
+    background: green;
+}
+.container {
+    width: 100%;
+    height: 1000px;
+    /*background: green;*/
+    display: flex;
+    justify-content: space-evenly;
+}
